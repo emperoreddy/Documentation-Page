@@ -14,20 +14,44 @@ header {
 }
 
 .main-section {
+  margin: 0 2rem;
+  p {
+    margin: 1.2rem 1rem;
+  }
+
+  li {
+    margin: 1rem 5rem;
+  }
+
+  code {
     margin: 0 2rem;
-    p {
-        margin: 1.2rem 1rem;
-    }
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgba(237, 237, 237, 0.392);
+  }
+}
 
-    li {
-        margin: 1rem 5rem ;
-    }
+#navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-right: 2px solid black;
+}
 
-    code {
-      margin: 0 2rem;
-      border: 1px solid black;
-      padding: 1rem;
-      border-radius: 5px;
-      background-color: rgba(237, 237, 237, 0.392);
-    } 
+.nav-link {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1rem 0 1rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+
+#main-doc {
+  position: absolute;
+  left: 20%;
 }

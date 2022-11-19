@@ -28,4 +28,27 @@ header {
   padding: 1rem;
   border-radius: 5px;
   background-color: rgba(237, 237, 237, 0.392);
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-right: 2px solid black;
+}
+
+.nav-link {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1rem 0 1rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+#main-doc {
+  position: absolute;
+  left: 20%;
 }/*# sourceMappingURL=style.css.map */
