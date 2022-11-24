@@ -51,9 +51,6 @@ header {
 }
 
 @media (max-width: 950px) {
-  #navbar {
-    margin-left: 3rem;
-  }
   #navbar .nav-link, #navbar header {
     display: none;
   }
