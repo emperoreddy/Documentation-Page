@@ -13,18 +13,22 @@ header {
   margin-top: 20px;
 }
 
-.main-section p {
-  margin: 1.2rem 1rem;
-}
-.main-section li {
-  margin: 1rem 5rem;
-}
-.main-section code {
-  margin: 0 2rem;
-  border: 1px solid black;
-  padding: 1rem;
-  border-radius: 5px;
-  background-color: rgba(237, 237, 237, 0.392);
+.main-section {
+  p {
+    margin: 1.2rem 1rem;
+  }
+
+  li {
+    margin: 1rem 5rem;
+  }
+
+  code {
+    margin: 0 2rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgba(237, 237, 237, 0.392);
+  }
 }
 
 #navbar {
@@ -46,15 +50,19 @@ header {
 }
 
 #main-doc {
+
   margin: 0 auto 0 17.5rem;
   padding: 1rem 3rem 1rem 3rem;
 }
 
-@media (max-width: 950px) {
-  #navbar .nav-link, #navbar header {
-    display: none;
+@media (max-width: 950px){
+  #navbar {
+    .nav-link, header {
+      display: none;
+    }
   }
   #main-doc {
     margin: 0 auto;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
